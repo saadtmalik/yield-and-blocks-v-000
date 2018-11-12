@@ -1,5 +1,5 @@
 def hello_t(array)
-  if block_given?
+  if block_given? #binary check for whether block was given, makes code more flexible
   i = 0
   while i < array.length
     yield array [i] #this brings up successive value stored in the array, notice []
